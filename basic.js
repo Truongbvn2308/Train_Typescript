@@ -1,15 +1,15 @@
 function add(a, b) {
-    return a + b;
+  return a + b;
 }
 function log(message) {
-    console.log(message);
+  console.log(message);
 }
 function logAndThrow(errorMessage) {
-    console.log(errorMessage);
-    throw new Error(errorMessage);
+  console.log(errorMessage);
+  throw new Error(errorMessage);
 }
 function typeFunction(fn) {
-    fn("akl");
+  fn("akl");
 }
 typeFunction(log);
 console.log(add(0, 1));
@@ -19,13 +19,13 @@ hobbies.splice(1, 1);
 console.log(hobbies);
 var users = [];
 var user = {
-    name: "truong",
-    age: 23,
-    hobbies: ["sports", "cooking"],
-    role: {
-        description: "admin",
-        id: 102190343,
-    },
+  name: "truong",
+  age: 23,
+  hobbies: ["sports", "cooking"],
+  role: {
+    description: "admin",
+    id: 102190343,
+  },
 };
 users.push(user);
 console.log(user.role.description);
@@ -34,9 +34,9 @@ record = { name: 0 };
 // enum
 var Role;
 (function (Role) {
-    Role[Role["Admin"] = 1] = "Admin";
-    Role[Role["editor"] = 2] = "editor";
-    Role[Role["Guest"] = 3] = "Guest";
+  Role[(Role["Admin"] = 1)] = "Admin";
+  Role[(Role["editor"] = 2)] = "editor";
+  Role[(Role["Guest"] = 3)] = "Guest";
 })(Role || (Role = {}));
 var userRole = 1;
 // Literal Types: đặt các giá trị cụ thể làm kiểu dữ liệu
