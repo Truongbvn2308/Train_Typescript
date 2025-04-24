@@ -6,7 +6,7 @@ function log(message) {
 }
 function logAndThrow(errorMessage) {
   console.log(errorMessage);
-  throw new Error(errorMessage); //fsdfsdf
+  throw new Error(errorMessage); //fsdfsdfgdfgfdgfd
 }
 function typeFunction(fn) {
   fn("akl"); //sdfsdsfdjkhbjkhbbjxzsdgsfdgsdfd11111ytuytuytsfsdfsdfsdfdsuytusdfsdssf
