@@ -9,7 +9,7 @@ function logAndThrow(errorMessage) {
   throw new Error(errorMessage); //fsdfsdf
 }
 function typeFunction(fn) {
-  fn("akl"); //sdfsdsfdjkhbjkhbbjxzsdgsfdgsdfd11111ytuytuytsfsdfsdfsdfdsuytu
+  fn("akl"); //sdfsdsfdjkhbjkhbbjxzsdgsfdgsdfd11111ytuytuytsfsdfsdfsdfdsuytusdfsdssf
 }
 typeFunction(log);
 console.log(add(0, 1));
