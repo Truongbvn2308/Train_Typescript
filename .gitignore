@@ -1,0 +1,13 @@
+# Bỏ qua thư mục build output
+dist/
+
+# Bỏ qua thư viện cài bằng npm
+node_modules/
+
+# Bỏ qua file môi trường (nếu có sau này)
+.env
+
+# Bỏ qua file hệ thống thừa (nếu có)
+.DS_Store
+Thumbs.db
+
